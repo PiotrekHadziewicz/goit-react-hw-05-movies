@@ -1,0 +1,15 @@
+.Cast_container{
+list-style: none;
+width: 1125px;
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
+}
+
+.Cast_elem{
+  min-width: 200px;
+  min-height: 388px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-basis: calc(100% / 6);
+}
